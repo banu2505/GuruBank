@@ -86,7 +86,6 @@ Feature: To test add new customer functionality
     Then The user should see success message with customer id created
 
     Examples: 
-      | custname | gender | dob        | address     | city    | state     | pin    | phno       | email               | password |
-      | testuser | male   | 11/11/2000 | testaddress | chennai | tamilnadu | 600119 | 9123456780 | xatestuser@gmail.com | jygarat  |
-      | testuser | male   | 11/11/2000 | testaddress | chennai | tamilnadu | 600119 | 9123456780 | yatestuser@gmail.com | jygarat  |
-      | testuser | male   | 11/11/2000 | testaddress | chennai | tamilnadu | 600119 | 9123456780 | zatestuser@gmail.com | jygarat  |
+      | custname | gender | dob        | address     | city    | state     | pin    | phno       | email                | password |
+      | testuser | male   | 11/11/2000 | testaddress | chennai | tamilnadu | 600119 | 9123456780 | testuserxyz@gmail.com | jygarat  |
+      | testuser | male   | 11/11/2000 | testaddress | chennai | tamilnadu | 600119 | 9123456780 | testuserabc@gmail.com | jygarat  |

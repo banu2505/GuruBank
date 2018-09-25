@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(features = "src/test/java/TestPack/CucumberGuru/", dryRun = false, glue = {
-		"TestPack.CucumberGuru" }, tags= {"@reset"}, plugin = {"html:target/Reports/"}, monochrome=true)
+		"TestPack.CucumberGuru" }, tags= {"~@addcustomer"}, plugin = {"html:target/NotReport/"}, monochrome=true)
 
 public class NewTestRunner {
 
